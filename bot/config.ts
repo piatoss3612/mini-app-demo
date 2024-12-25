@@ -5,5 +5,5 @@ dotenv.config({ path: path.resolve(__dirname, ".env") });
 
 export const config = {
   BOT_TOKEN: process.env.BOT_TOKEN,
-  WEBAPP_URL: process.env.WEBAPP_URL,
+  MINI_APP_LINK: process.env.MINI_APP_LINK,
 };

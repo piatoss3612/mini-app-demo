@@ -37,7 +37,7 @@ bot.command("webapp", (ctx) => {
         [
           {
             text: "Open App",
-            url: `${config.WEBAPP_URL}?startapp=${encodedGroupId}`,
+            url: `${config.MINI_APP_LINK}?startapp=${encodedGroupId}`,
           },
         ],
       ],
